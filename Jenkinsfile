@@ -2,9 +2,9 @@
     agent any
 
     environment {
-         LISTENER_ARN = 'arn:aws:elasticloadbalancing:ap-northeast-2:427617722045:listener/app/blue-green-alb/77968cc89beecbee/70ea8976420306be'  // ← CHANGE
-        BLUE_TG_ARN   = 'arn:aws:elasticloadbalancing:ap-northeast-2:427617722045:targetgroup/TG-Blue/51d1c11587f20f1f'       // ← CHANGE
-        GREEN_TG_ARN  = 'arn:aws:elasticloadbalancing:ap-northeast-2:427617722045:targetgroup/TG-Green/e3c645fea483d2e3'    // ← CHANGE
+        LISTENER_ARN = 'arn:aws:elasticloadbalancing:ap-northeast-2:427617722045:listener/app/blue-green-alb/77968cc89beecbee/70ea8976420306be'  // ← CHANGE
+        TG-Blue_ARN   = 'arn:aws:elasticloadbalancing:ap-northeast-2:427617722045:targetgroup/TG-Blue/51d1c11587f20f1f'       // ← CHANGE
+        TG-Green_ARN  = 'arn:aws:elasticloadbalancing:ap-northeast-2:427617722045:targetgroup/TG-Green/e3c645fea483d2e3'    // ← CHANGE
         BLUE_IP       = '13.125.200.20'   // Blue instance public IP
         GREEN_IP      = '43.203.224.107'   // Green instance public IP
     }
