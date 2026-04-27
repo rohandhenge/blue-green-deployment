@@ -1,1 +1,78 @@
-<h1>New Deployment Version from Jenkins</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue-Green Deployment</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .blue {
+            color: #4da6ff;
+            font-weight: bold;
+        }
+
+        .green {
+            color: #00ff99;
+            font-weight: bold;
+        }
+
+        .status {
+            margin-top: 20px;
+            font-size: 22px;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🚀 Deployment Version 2</h1>
+
+        <p>
+            Application was previously running on 
+            <span class="blue">BLUE environment</span>.
+        </p>
+
+        <p>
+            New version successfully deployed and tested on 
+            <span class="green">GREEN server</span>.
+        </p>
+
+        <p class="status">
+            ✅ GREEN environment is now LIVE and serving traffic
+        </p>
+
+        <p>
+            🔁 Traffic switched seamlessly using Blue-Green Deployment strategy
+        </p>
+    </div>
+
+</body>
+</html>
