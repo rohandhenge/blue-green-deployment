@@ -10,13 +10,6 @@
     }
 
     stages {
-
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/rohandhenge/blue-green-deployment.git'
-            }
-        }
-
         stage('Deploy to Green') {
             steps {
                 sh """
